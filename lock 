@@ -1,0 +1,4 @@
+#!/bin/bash
+scrot /home/aero/Lock/wd.png
+convert /home/aero/Lock/wd.png -blur 0x5 /home/aero/Lock/wd.png
+i3lock -i /home/aero/Lock/wd.png
