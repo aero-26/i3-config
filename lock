@@ -1,4 +1,5 @@
 #!/bin/bash
 scrot /home/aero/Lock/wd.png
 convert /home/aero/Lock/wd.png -blur 0x5 /home/aero/Lock/wd.png
+systemctl suspend
 i3lock -i /home/aero/Lock/wd.png
